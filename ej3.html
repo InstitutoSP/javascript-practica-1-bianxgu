@@ -4,6 +4,7 @@
     <title>Document</title>
 </head>
 <body>
+    <H1>Ingrese un numero</H1>
     <input type="number" id="number" />
     <button onclick="showNumber()">verificar</button>
 
@@ -12,10 +13,10 @@
             var number = document.getElementById("number").value;
             if(number<0){
             alert("el numero es negativo")
-        }else if (number>=1){
+        }else if (number>0){
         alert("el numero es positivo")
     }else{
-        alert("numero es 0")
+        alert("el numero es 0")
     }
 }
     </script>
