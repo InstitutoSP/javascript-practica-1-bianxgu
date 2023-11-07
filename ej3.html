@@ -4,8 +4,20 @@
     <title>Document</title>
 </head>
 <body>
+    <input type="number" id="number" />
+    <button onclick="showNumber()">verificar</button>
+
     <script lang="JavaScript">
-        
+        function showNumber() {
+            var number = document.getElementById("number").value;
+            if(number<0){
+            alert("el numero es negativo")
+        }else if (number>=1){
+        alert("el numero es positivo")
+    }else{
+        alert("numero es 0")
+    }
+}
     </script>
 </body>
 </html>
