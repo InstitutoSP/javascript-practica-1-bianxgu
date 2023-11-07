@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <h1> Ingrese un numero del 1 al 7</h1>
+    <input type="number" id="number" />
+    <button onclick="showNumber()">dia de semana</button>
+
+    <script lang="JavaScript">
+        function showNumber() {
+            var number = document.getElementById("number").value;
+            switch(number){
+                case "1":
+                    alert("lunes");
+                    break;
+                case "2":
+                alert("martes");
+                    break;
+                    case "3":
+                alert("miercoles");
+                    break;
+                case "4":
+                    alert("jueves");
+                    break;
+                case "5":
+                alert("viernes");
+                break;
+                case "6":
+                alert("sabado");
+                    break;
+                case "7":    
+                    alert("domingo");
+                    break;
+            }
+        }
+    </script>
+</body>
+</html>
